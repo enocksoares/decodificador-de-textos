@@ -5,32 +5,63 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Decodificador de texto - Alura</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 	
-		<div>
+		<main>
 		
-			<img />
-		
-		</div>
-	
-		<div>
-		
-			<textarea></textarea>
+			<section class="logo">
 			
-			<button></button>
-			<button></button>
+				<img src="images/logo.svg" alt="Logo da Alura"/>
+			
+			</section>
 		
-		</div>
+			<section class="campo-texto-digitado">
+			
+				<textarea 
+					
+					autofocus
+					placeholder="Digite seu texto"
+									
+				></textarea>
+				
+				<section class="campo-aviso">
+				
+					<img src="images/icone.svg">
+					<p>Apenas letras minúsculas e sem acento.</p>
+					
+				</section>
+				
+				<section class="campo-botoes">
+				
+					
+
+					<button id="botao1">Criptografar</button>
+					<button id="botao2">Descriptografar</button>
+					
+				</section>
+				
+			</section>
+			
+			<section class="campo-texto-resultado">
+			
+				<textarea></textarea>
+			
+			</section>
+			
+		</main>
 		
-		<div>
+		<footer class="rodape">
 		
-			<textarea></textarea>
+			<p id="texto-rodape">Copyright 2022 &copy Enock Soares</p>
 		
-		</div>
+		</footer>
 		
 	</body>
-
 
 </html>
