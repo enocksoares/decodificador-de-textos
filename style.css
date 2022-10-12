@@ -51,15 +51,15 @@ body {
 	display: inline;
 	font-family: "Inter";
 	font-size: 12px;
-	text-align: center;
+	vertical-align: middle;
 	
 	
 }
 
 .campo-botoes {
-	
 	display: block;
 	margin-top: 16px;
+	float: center;
 
 	
 }
@@ -129,11 +129,34 @@ body {
 	
 }
 
-.campo-texto-resultado textarea {
+.campo-texto-resultado {
 	
 	width: 400px;
 	height: 430px;
 	margin: 40px 0 0 0;
+
+
+	
+}
+
+.campo-texto-resultado textarea {
+	
+	width: 400px;
+	height: 230px;
+	font-family: "Inter";
+	font-size: 32px;
+	color: #0A3871;
+	resize: none;
+	background: transparent;
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+	
+}
+
+.campo-texto-resultado p {
+	
+	display: none;
 
 	
 }
